@@ -52,7 +52,7 @@ class UploadImage extends Component {
         formData.append("myfile",this.state.imageFile)
         axios
         .post(
-            "http://127.0.0.1:8000/brainTumourDetection/getImage/",
+            "http://127.0.0.1:8000/PDDetection/getImage/",
             formData,
             {
                 headers:{
